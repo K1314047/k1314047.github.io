@@ -1,1011 +1,222 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!DOCTYPE HTML>
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="keywords" content="Hexo Theme Keep">
-    <meta name="description" content="Hexo Theme Keep">
-    <meta name="author" content="Kadriye">
-    
-    <title>
-        
-        Kadriye&#39;s Blog
-    </title>
-    
-<link rel="stylesheet" href="/css/style.css">
+  <meta charset="utf-8">
+  
+  <title>Kadriye&#39;s 备忘录</title>
+  <meta name="author" content="John Doe">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
-        <link rel="shortcut icon" href="https://pic.imgdb.cn/item/66c485c2d9c307b7e9b7d248.png">
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/font/css/fontawesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/font/css/regular.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/font/css/solid.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/font/css/brands.min.css">
-    
-    <script class="keep-theme-configurations">
-    const KEEP = window.KEEP || {}
-    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"}
-    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"Kadriye's Blog","author":"Kadriye","avatar":"https://pic.imgdb.cn/item/66c485c2d9c307b7e9b7d248.png","logo":"https://pic.imgdb.cn/item/66c485c2d9c307b7e9b7d248.png","favicon":"https://pic.imgdb.cn/item/66c485c2d9c307b7e9b7d248.png"},"menu":{"home":"/","archives":"/archives","演讲":{"children":[{"访谈":"/fangtan ||"},{"发布会":"/fabuhui ||"}]},"about":"/about"},"first_screen":{"enable":false,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":null,"hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":false,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":false,"init_open":true,"layout":"left"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":true,"use":"valine","valine":{"appid":"IEywqtcTRNXZJ6mFNCfz7HAF-gzGzoHsz","appkey":"TdLtghA5yQJPV8EAgPLFosLm","server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":true},"lazyload":{"enable":false},"cdn":{"enable":true,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2023,"word_count":false,"site_deploy":{"enable":true,"provider":"github","url":"https://github.com"},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.2.3"}
-    KEEP.language_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"}
-    KEEP.language_code_block = {"copy":"复制代码","copied":"已复制","fold":"折叠代码块","folded":"已折叠"}
-    KEEP.language_copy_copyright = {"copy":"复制版权信息","copied":"已复制","title":"原文标题","author":"原文作者","link":"原文链接"}
-  </script>
-<meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Kadriye's 备忘录" type="application/atom+xml">
-</head>
+  
+  <meta property="og:site_name" content="Kadriye&#39;s 备忘录"/>
 
+  
+    <meta property="og:image" content=""/>
+  
 
-<body>
-<div class="progress-bar-container">
-    
+  
+    <link rel="alternative" href="/atom.xml" title="Kadriye&#39;s 备忘录" type="application/atom+xml">
+  
+  
+    <link href="/favicon.png" rel="icon">
+  
+  
+  <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/responsive.css" media="screen" type="text/css">  
+  <link rel="stylesheet" href="/css/sidenav.css" media="screen" type="text/css">  
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
-    
+  <script src="/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body id="body" data-spy="scroll" data-target=".toc">
+  <div class="container" id="container">
+	<div class="content">
+	  <div class="page-header">
+  <h1><a class="brand" href="#">Kadriye&#39;s 备忘录</a></h1>
 </div>
 
 
 
-<main class="page-container border-box">
-    <!-- home first screen  -->
-    
-
-    <!-- page content -->
-    <div class="page-main-content border-box is-home">
-        <div class="page-main-content-top">
-            
-<header class="header-wrapper">
-
-    <div class="border-box header-content">
-        <div class="left flex-start border-box">
-            
-                <a class="logo-image border-box" href="/">
-                    <img src="https://pic.imgdb.cn/item/66c485c2d9c307b7e9b7d248.png">
-                </a>
-            
-            <a class="site-name border-box" href="/">
-               Kadriye&#39;s Blog
-            </a>
-        </div>
-
-        <div class="right border-box">
-            <div class="pc border-box">
-                <ul class="menu-list border-box">
-                    
-                        
-                        <li class="menu-item flex-start border-box active">
-                            <a class="menu-text-color border-box" href="/">
-                                
-                                首页
-                                
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="menu-item flex-start border-box">
-                            <a class="menu-text-color border-box" href="/archives">
-                                
-                                归档
-                                
-                            </a>
-                            
-                        </li>
-                    
-                        
-                        <li class="menu-item flex-start border-box has-sub-menu">
-                            <a class="menu-text-color border-box" href="javascript:void(0);">
-                                
-                                演讲
-                                
-                                    <i class="menu-text-color collapse-icon fa-solid fa-angle-down"></i>
-                                
-                            </a>
-                            
-                                <ul class="sub-menu-list border-box">
-                                    
-                                        
-                                        <li class="sub-menu-item border-box ">
-                                            <a class="menu-text-color border-box flex-start" href="/fangtan">
-                                                
-                                                访谈
-                                            </a>
-                                        </li>
-                                    
-                                        
-                                        <li class="sub-menu-item border-box ">
-                                            <a class="menu-text-color border-box flex-start" href="/fabuhui">
-                                                
-                                                发布会
-                                            </a>
-                                        </li>
-                                    
-                                </ul>
-                            
-                        </li>
-                    
-                        
-                        <li class="menu-item flex-start border-box">
-                            <a class="menu-text-color border-box" href="/about">
-                                
-                                关于
-                                
-                            </a>
-                            
-                        </li>
-                    
-                    
-                        <li class="menu-item search search-popup-trigger">
-                            <i class="menu-text-color fas search fa-search"></i>
-                        </li>
-                    
-                </ul>
-            </div>
-            <div class="mobile border-box flex-start">
-                
-                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
-                
-                <div class="icon-item menu-bar">
-                    <div class="menu-bar-middle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="header-drawer">
-        <ul class="drawer-menu-list border-box">
-            
-                
-                <li class="drawer-menu-item border-box not-sub-menu active">
-                    <label class="drawer-menu-label border-box">
-                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/">
-                            
-                            首页
-                        </a>
-                        
-                    </label>
-                    
-                </li>
-            
-                
-                <li class="drawer-menu-item border-box not-sub-menu">
-                    <label class="drawer-menu-label border-box">
-                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/archives">
-                            
-                            归档
-                        </a>
-                        
-                    </label>
-                    
-                </li>
-            
-                
-                <li class="drawer-menu-item border-box has-sub-menu">
-                    <label class="drawer-menu-label border-box">
-                        <a class="drawer-menu-text-color left-side flex-start border-box" href="javascript:void(0);">
-                            
-                            演讲
-                        </a>
-                        
-                            <i class="right-side collapse-icon fa-solid fa-angle-left"></i>
-                        
-                    </label>
-                    
-                        <ul class="drawer-sub-menu-list border-box">
-                            
-                                
-                                <li class="sub-menu-item border-box">
-                                    <a class="drawer-menu-text-color border-box flex-start" href="/fangtan">
-                                        
-                                        访谈
-                                    </a>
-                                </li>
-                            
-                                
-                                <li class="sub-menu-item border-box">
-                                    <a class="drawer-menu-text-color border-box flex-start" href="/fabuhui">
-                                        
-                                        发布会
-                                    </a>
-                                </li>
-                            
-                        </ul>
-                    
-                </li>
-            
-                
-                <li class="drawer-menu-item border-box not-sub-menu">
-                    <label class="drawer-menu-label border-box">
-                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/about">
-                            
-                            关于
-                        </a>
-                        
-                    </label>
-                    
-                </li>
-            
-        </ul>
-    </div>
-
-    <div class="window-mask"></div>
-
-</header>
-
-
-        </div>
-
-        <div class="page-main-content-middle border-box">
-
-            <div class="main-content border-box">
-                
-
-                    <div class="home-content-container fade-in-down-animation">
-    
-    <ul class="home-post-list border-box">
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/09/20/%E4%B8%80%E4%B8%AA%E5%80%BC%E5%BE%97%E5%85%B4%E5%A5%8B%E7%9A%84%E6%9C%AA%E6%9D%A5/">
-                            一个值得兴奋的未来
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            
-
-
-
-这个视频采访展示了特斯拉位于德克萨斯州的超级工厂,让我们一窥这家电动汽车巨头的未来愿景。以下是视频的主要亮点:
-工厂规模和生产能力特斯拉德克萨斯超级工厂是一个令人印象深刻的大规模设施,旨在大幅提升公司的生产能力。
-技术创新采访中可能展示了特斯...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Fri Sep 20 2024 19:59:16 GMT+0800"
-                >2024-09-20 19:59:16</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/09/20/%E4%B8%80%E4%B8%AA%E5%80%BC%E5%BE%97%E5%85%B4%E5%A5%8B%E7%9A%84%E6%9C%AA%E6%9D%A5/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
+<div class="row page">
+	<div class="col-md-12">
+        <input type="text" id="local-search-input" name="q" results="0" placeholder="查找笔记……" class="st-search-input st-default-search-input form-control" style="margin-bottom:1em"/>
+        <div id="local-search-result"></div>
+		<div class="panel-group" id="notebook">
+			
+			
+			
+			
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<a class="panel-title" data-toggle="collapse" data-parent="#notebook" href="#Scratch">
+						<i class="fa fa-folder"></i> Scratch		   
+				</div>
+				
+					<div id="Scratch" class="panel-collapse collapse">
+				
+					    <div class="panel-body">
+						    <ul class="post">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2021/08/23/玩客云onecloud刷Shellclash/">玩客云onecloud刷Shellclash</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/03/08/海纳斯利用ZeroTier添加免费内网穿透服务/">海纳思利用ZeroTier添加免费内网穿透服务</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/03/26/从苏州回成都/">从苏州回成都</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/07/03/种草相机/">种草相机</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/23/玩客云海纳思系统alist升级/">玩客云海纳思系统alist升级</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/23/海纳思挂在外置移动硬盘/">海纳思挂在外置移动硬盘</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/25/Hexo主题burgerking使用安装方法/">Hexo主题burgerking使用安装方法</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/25/Snavigation 简单的导航起始页开源html模板源码/">Snavigation 简单的导航起始页开源html模板源码</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/25/Hexo主题zhaoo使用安装方法/">Hexo主题zhaoo使用安装方法</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/29/S805 玩客云 海纳思刷机教程/">S805 玩客云 海纳思刷机教程</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/30/Hexo在Github部署静态博客/">Hexo在Github部署静态博客</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/30/Hexo主题Coder使用安装方法/">Hexo主题Coder主题使用安装方法</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/31/电脑软件/">💻Computer Software</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/31/Typecho主题分享/">Typecho主题</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/08/31/hexo主题分享/">Hexo主题分享</a></li>
+			                    
+			    
+			                    
+			                    <li class="post-list-item"><a href="/2024/09/20/一个值得兴奋的未来/">一个值得兴奋的未来</a></li>
+			                    
+			    
+				            </ul>
+				        </div>
+				    </div>
+			</div>
+			
+		</div><!-- accordion -->
+	</div>
 </div>
 
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/31/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/">
-                            💻Computer Software
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            电脑系统黑鲨装机大师一键重装系统，有广告，可在系统重装完成之后使用GEEK卸载掉
-下载地址：黑鲨装机大师
-
-MSDN系统库MSDN系统库－致力于原版windows生态服务
-下载地址：MSDN系统库
-
-MSDN山己几子木本站提供 Windows 11、...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sat Sep 21 2024 09:16:48 GMT+0800"
-                >2024-09-21 09:16:48</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/31/%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/31/Typecho%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB/">
-                            Typecho主题
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            ​                1、Typecho-Theme-Material
-​                  
-​                2、**Typecho-Theme-Junichi**
-
-
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Fri Sep 20 2024 14:05:34 GMT+0800"
-                >2024-09-20 14:05:34</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/31/Typecho%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/31/hexo%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB/">
-                            Hexo主题分享
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            前两年折腾过一次hexo，后来因为网络的问题，放弃了。后来自己慢慢开始折腾科学上网，昨天刷视频的时候，看到一个博主教人搭建hexo，又勾起了我这折腾的心。hexo操作有一点门槛，且主题真的已经属于时代淘汰产品了，已经不推荐使用了，但即使不用了，也不能...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Fri Sep 20 2024 14:04:47 GMT+0800"
-                >2024-09-20 14:04:47</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/31/hexo%E4%B8%BB%E9%A2%98%E5%88%86%E4%BA%AB/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/30/Hexo%E4%B8%BB%E9%A2%98Coder%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/">
-                            Hexo主题Coder主题使用安装方法
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            Coder使用和配置很简单：Coder主题地址：https://github.com/Xunzhuo/Coder/tree/master1. 下载Coder
-最新版：进入 &#x2F;Hexo目录&#x2F;themes：
-
-1git clone g...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Fri Aug 30 2024 13:03:09 GMT+0800"
-                >2024-08-30 13:03:09</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/30/Hexo%E4%B8%BB%E9%A2%98Coder%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/30/Hexo%E5%9C%A8Github%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/">
-                            Hexo在Github部署静态博客
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            1.事前准备
-域名（非必须，你也可以使用免费域名，或者GitHub.io或Pages.dev分配的域名也可以）
-
-GitHub（必须，你需要注册一个GitHub帐号）
-
-Cloudflare（非必须，你需要注册一个Cloudflare帐号，这样你就可...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sat Sep 21 2024 10:14:45 GMT+0800"
-                >2024-09-21 10:14:45</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/30/Hexo%E5%9C%A8Github%E9%83%A8%E7%BD%B2%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/29/S805%20%E7%8E%A9%E5%AE%A2%E4%BA%91%20%E6%B5%B7%E7%BA%B3%E6%80%9D%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/">
-                            S805 玩客云 海纳思刷机教程
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            1. 准备工作
-准备一个玩客云设备
-
-准备一个U盘（建议8GB或以上）
-
-下载海纳思系统镜像文件
-U-BOOT底包：S805-uboot-hinas.img
-U盘镜像固件：Ubuntu_hinas_s805_armhf_5.15.79.img
-
-下载...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Wed Sep 18 2024 21:01:39 GMT+0800"
-                >2024-09-18 21:01:39</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/29/S805%20%E7%8E%A9%E5%AE%A2%E4%BA%91%20%E6%B5%B7%E7%BA%B3%E6%80%9D%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/25/Hexo%E4%B8%BB%E9%A2%98zhaoo%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/">
-                            Hexo主题zhaoo使用安装方法
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            一、使用方法
-安装 zhao 主题，项目地址：https://github.com/zhaoo/hexo-theme-zhaoo
-
-1git clone https://github.com/izhaoo/hexo-theme-zhaoo.git t...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sat Sep 21 2024 10:10:02 GMT+0800"
-                >2024-09-21 10:10:02</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/25/Hexo%E4%B8%BB%E9%A2%98zhaoo%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/25/Hexo%E4%B8%BB%E9%A2%98burgerking%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/">
-                            Hexo主题burgerking使用安装方法
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            项目地址：https://github.com/jarvislin94/hexo-theme-burgerking一、使用方法
-手动下载burgerking主题
-在themes主题文件夹下创建新目录burgerking,然后将本主题文件全部拷贝过去
-...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sun Sep 01 2024 14:48:33 GMT+0800"
-                >2024-09-01 14:48:33</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/25/Hexo%E4%B8%BB%E9%A2%98burgerking%E4%BD%BF%E7%94%A8%E5%AE%89%E8%A3%85%E6%96%B9%E6%B3%95/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-post-item">
-
-                
-
-                <div class="home-post-item-bottom border-box">
-                    
-                    <h3 class="home-post-title border-box">
-                        <a href="/2024/08/25/Snavigation%20%E7%AE%80%E5%8D%95%E7%9A%84%E5%AF%BC%E8%88%AA%E8%B5%B7%E5%A7%8B%E9%A1%B5%E5%BC%80%E6%BA%90html%E6%A8%A1%E6%9D%BF%E6%BA%90%E7%A0%81/">
-                            Snavigation 简单的导航起始页开源html模板源码
-                        </a>
-                    </h3>
-
-                    <div class="home-post-content keep-markdown-body">
-                        
-                            
-简单的导航起始页开源源码(导航页面设计代码)，支持自定义搜索引擎，自定义快捷方式，自定义壁纸以及数据备件，全开源下载就能用。
-【重构中】Snavigation 一个简约的起始页 | 支持自定义搜索引擎，自定义快捷方式，自定义壁纸以及数据备份
-项目地...
-                        
-                    </div>
-
-                    
-
-<div class="post-meta-info-container border-box home">
-    <div class="post-meta-info border-box">
-        
-            <span class="meta-info-item border-box">
-                <i class="icon fa-solid fa-history"></i>&nbsp;<span class="home-post-history"
-                                                                                data-updated="Sun Sep 01 2024 14:48:24 GMT+0800"
-                >2024-09-01 14:48:24</span>
-            </span>
-        
-
-        
-
-        
-
-        
-
-        
-        
-        
-        
-    </div>
-
-    
-        <a class="home-read-more" href="/2024/08/25/Snavigation%20%E7%AE%80%E5%8D%95%E7%9A%84%E5%AF%BC%E8%88%AA%E8%B5%B7%E5%A7%8B%E9%A1%B5%E5%BC%80%E6%BA%90html%E6%A8%A1%E6%9D%BF%E6%BA%90%E7%A0%81/">阅读全文&nbsp;<i class="icon fas fa-angle-right"></i></a>
-    
-</div>
-
-                </div>
-            </li>
-        
-    </ul>
-    
-    <div class="paginator border-box flex-center">
-        <div class="border-box first-page paginator-btn not-allow">
-            <a class="border-box"><i class="fa-solid fa-angle-double-left"></i></a>
-        </div>
-
-        <div class="border-box paginator-btn">
-            <a class="border-box"
-               href="/"
-            ><i class="fa-solid fa-chevron-left"></i></a>
-        </div>
-
-
-        <div class="page-number-box border-box flex-center">
-            <input class="page-number-input border-box base-style"
-                   type="number"
-                   value="1"
-                   min="1"
-                   max="2"
-            /><span class="delimiter base-style">/</span><span class="base-style">2</span>
-        </div>
-
-
-        <div class="border-box paginator-btn allowed">
-            <a class="border-box"
-               href="/page/2/"
-            ><i class="fa-solid fa-chevron-right"></i></a>
-        </div>
-
-        <div class="border-box last-page paginator-btn allowed">
-            <a class="border-box"><i class="fa-solid fa-angle-double-right"></i></a>
-        </div>
-    </div>
-
-
-
-
-</div>
-
-
-                
-            </div>
-        </div>
-
-        <div class="page-main-content-bottom border-box">
-            
-<footer class="footer border-box">
-    <div class="copyright-info info-item">
-        &copy;&nbsp;<span>2023</span>&nbsp;-&nbsp;2025
-        
-            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">Kadriye</a>
-        
-    </div>
-
-    <div class="theme-info info-item">
-        由&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;驱动&nbsp;&&nbsp;主题&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
-    </div>
-
-    
-        
-        <div class="deploy-info info-item">
-            
-                <a target="_blank" rel="nofollow" href="https://github.com">
-            
-            本站由 <span class="tooltip" data-tooltip-content="GitHub Pages"><img src="/images/brands/github.png"></span> 提供部署服务
-            
-                </a>
-            
-        </div>
-    
-
-    
-
-    
-</footer>
-
-        </div>
-    </div>
-
-    <!-- post tools -->
-    
-
-    <!-- side tools -->
-    <div class="side-tools">
-        <div class="side-tools-container border-box side-tools-show-handle">
-    <ul class="side-tools-list side-tools-show-handle border-box">
-        <li class="tools-item tool-font-adjust-plus flex-center">
-            <i class="fas fa-search-plus"></i>
-        </li>
-
-        <li class="tools-item tool-font-adjust-minus flex-center">
-            <i class="fas fa-search-minus"></i>
-        </li>
-
-        <!-- toggle mode -->
-        
-            <li class="tools-item tool-toggle-theme-mode flex-center">
-                <i class="fas fa-moon"></i>
-            </li>
-        
-
-        <!-- rss -->
-        
-            <li class="tools-item rss flex-center">
-                <a class="flex-center"
-                   href="/atom.xml"
-                   target="_blank"
-                >
-                    <i class="fas fa-rss"></i>
-                </a>
-            </li>
-        
-
-        <!-- to bottom -->
-        <li class="tools-item tool-scroll-to-bottom flex-center">
-            <i class="fas fa-arrow-down"></i>
-        </li>
-    </ul>
-
-    <ul class="exposed-tools-list border-box">
-        
-
-        
-
-        <li class="tools-item tool-toggle-show flex-center">
-            <i class="fas fa-cog fa-spin"></i>
-        </li>
-
-        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
-            <i class="arrow fas fa-arrow-up"></i>
-            <span class="percent"></span>
-        </li>
-    </ul>
-</div>
-
-    </div>
-
-    <!-- image mask -->
-    <div class="zoom-in-image-mask">
-    <img class="zoom-in-image">
-</div>
-
-
-    <!-- local search -->
-    
-        <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
-          <span class="search-input-field-pre">
-            <i class="fas fa-keyboard"></i>
-          </span>
-            <div class="search-input-container">
-                <input autocomplete="off"
-                       autocorrect="off"
-                       autocapitalize="off"
-                       placeholder="搜索..."
-                       spellcheck="false"
-                       type="search"
-                       class="search-input"
-                >
-            </div>
-            <span class="close-popup-btn">
-                <i class="fas fa-times"></i>
-            </span>
-        </div>
-        <div id="search-result">
-            <div id="no-result">
-                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
-            </div>
-        </div>
-    </div>
-</div>
-
-    
-
-    <!-- tablet toc -->
-    
-</main>
-
-
-
-
-
-
-<!-- common js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/header-shrink.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/back2top.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/toggle-theme.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/code-block.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/main.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/libs/anime.min.js"></script>
-
-<!-- local search -->
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/local-search.min.js"></script>
-
-
-<!-- lazyload -->
-
-
-<div class="">
-    <!-- home page -->
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.3/js/page/home-page.min.js"></script>
-    
-
-    <!-- post page -->
-    
-
-    <!-- categories page -->
-    
-
-    <!-- links page -->
-    
-
-    <!-- photos page -->
-    
-
-    <!-- tools page -->
-    
-</div>
-
-<!-- mermaid -->
-
-
-<!-- pjax -->
-
+	</div>
+  </div>
+  <div class="container-narrow">
+	<footer> <p>
+  &copy; 2025 John Doe
+  
+      with help from <a href="http://zespia.tw/hexo/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a target="_blank" rel="noopener" href="http://github.com/wzpan/hexo-theme-wixo/">Wixo</a>.    
+</p> </footer>
+  </div> <!-- container-narrow -->
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery.tableofcontents.min.js"></script>
+<script src="/js/tocgenerator.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/search.js"></script> 
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
 
 
 </body>

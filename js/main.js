@@ -1,82 +1,41 @@
-/* global KEEP */
+function setTitleDate()
+{
+	var body_width = $("#body").css("width")
+	var container_width = $("#container").css("width")
+	var container_margin_right = $("#container").css("margin-right");
+	var container_padding_right = $("#container").css("padding-right");
+	//var container_right = parseInt(container_margin_right) + parseInt(container_padding_right);
+	var container_right = (parseInt(body_width) - parseInt(container_width))/2 + 10;
+	$("#title-date").css("right", container_right);
+}
 
-window.addEventListener('DOMContentLoaded', () => {
-  const { version, local_search, lazyload } = KEEP.theme_config
+$(document).ready(function() {
+	
+	$(window).scroll(function(){  //只要窗口滚动,就触发下面代码 
+        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //获取滚动后的高度 
+        if( scrollt >200 ){  //判断滚动后高度超过200px,就显示
+            $("#gotop").fadeIn(400); //淡出
+			$(".navbar").stop().fadeTo(400, 0.2);
+        }else{
+            $("#gotop").fadeOut(400); //如果返回或者没有超过,就淡入.必须加上stop()停止之前动画,否则会出现闪动
+			$(".navbar").stop().fadeTo(400, 1);
+        }
+    });
+    $("#gotop").click(function(){ //当点击标签的时候,使用animate在200毫秒的时间内,滚到顶部
+        $("html,body").animate({scrollTop:"0px"},200);
+    });
+	$(".navbar").mouseenter(function(){
+		$(".navbar").fadeTo(100, 1);
+	});
+    $(".navbar").mouseleave(function(){
+		var scrollt = document.documentElement.scrollTop + document.body.scrollTop;
+		if ( scrollt > 200) {
+			$(".navbar").fadeTo(100, 0.2);
+		}
+	});	
+	setTitleDate();
+});
 
-  KEEP.themeInfo = {
-    theme: `Keep v${version}`,
-    author: 'XPoet',
-    repository: 'https://github.com/XPoet/hexo-theme-keep',
-    localStorageKey: 'KEEP-THEME-STATUS',
-    encryptKey: 'KEEP-ENCRYPT',
-    styleStatus: {
-      isDark: false,
-      fontSizeLevel: 0,
-      isShowToc: true
-    },
-    defaultDatetimeFormat: 'YYYY-MM-DD HH:mm:ss'
-  }
-
-  // print theme base info
-  KEEP.printThemeInfo = () => {
-    console.log(
-      `\n %c ${KEEP.themeInfo.theme} %c ${KEEP.themeInfo.repository} \n`,
-      `color: #fadfa3; background: #333; padding: 6px 0;`,
-      `padding: 6px 0;`
-    )
-  }
-  KEEP.printThemeInfo()
-
-  // set version number of footer
-  KEEP.setFooterVersion = () => {
-    const vd = document.querySelector('.footer .keep-version')
-    vd && (vd.innerHTML = KEEP.themeInfo.theme)
-  }
-
-  // set styleStatus to localStorage
-  KEEP.setStyleStatus = () => {
-    localStorage.setItem(KEEP.themeInfo.localStorageKey, JSON.stringify(KEEP.themeInfo.styleStatus))
-  }
-
-  // get styleStatus from localStorage
-  KEEP.getStyleStatus = () => {
-    let temp = localStorage.getItem(KEEP.themeInfo.localStorageKey)
-    if (temp) {
-      temp = JSON.parse(temp)
-      for (let key in KEEP.themeInfo.styleStatus) {
-        KEEP.themeInfo.styleStatus[key] = temp[key]
-      }
-      return temp
-    } else {
-      return null
-    }
-  }
-
-  // init prototype function
-  KEEP.initPrototype = () => {
-    HTMLElement.prototype.wrap = function (wrapper) {
-      this.parentNode.insertBefore(wrapper, this)
-      this.parentNode.removeChild(this)
-      wrapper.appendChild(this)
-    }
-  }
-  KEEP.initPrototype()
-
-  KEEP.initExecute = () => {
-    KEEP.initUtils()
-    KEEP.initHeaderShrink()
-    KEEP.initModeToggle()
-    KEEP.initBack2Top()
-    KEEP.initCodeBlock()
-    KEEP.setFooterVersion()
-
-    if (lazyload?.enable === true) {
-      KEEP.initLazyLoad()
-    }
-
-    if (local_search?.enable === true) {
-      KEEP.initLocalSearch()
-    }
-  }
-  KEEP.initExecute()
+$(window).resize(function () {
+	setTitleDate();
 })

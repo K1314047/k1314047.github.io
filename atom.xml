@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-08-19T07:09:23.939Z</updated>
+  <updated>2025-08-30T15:00:31.413Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>到现场看比赛</title>
+    <link href="http://example.com/2025/08/30/%E7%8E%B0%E5%9C%BA%E7%9C%8B%E6%AF%94%E8%B5%9B/"/>
+    <id>http://example.com/2025/08/30/%E7%8E%B0%E5%9C%BA%E7%9C%8B%E6%AF%94%E8%B5%9B/</id>
+    <published>2025-08-30T14:51:07.000Z</published>
+    <updated>2025-08-30T15:00:31.413Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/img/20250416.jpg"  data-tag='post-image' onload='this.onload=null;this.style.opacity=1;' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p><p><img src="/img/202504162.jpg"  data-tag='post-image' onload='this.onload=null;this.style.opacity=1;' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/img/20250416.jpg&quot;  data-tag=&#39;post-image&#39; onload=&#39;this.onload=null;this.style.opacity=1;&#39; loading=&quot;lazy&quot; onerror=&#39;this.onerror=</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>今日天空自带滤镜</title>
@@ -426,29 +446,6 @@
     
     
     <content src="http://example.com/images/20240825/bg.png" type="image"/>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>从苏州回成都</title>
-    <link href="http://example.com/2024/03/26/%E4%BB%8E%E8%8B%8F%E5%B7%9E%E5%9B%9E%E6%88%90%E9%83%BD/"/>
-    <id>http://example.com/2024/03/26/%E4%BB%8E%E8%8B%8F%E5%B7%9E%E5%9B%9E%E6%88%90%E9%83%BD/</id>
-    <published>2024-03-26T14:13:29.000Z</published>
-    <updated>2024-08-30T14:34:15.147Z</updated>
-    
-    <content type="html"><![CDATA[<p>   接到电话通知，项目快开始了，带着我的大包小包回到成都，开始筹备新项目</p><p><img src="https://tu.iove.eu.org/file/4b63b8e718f6ec4b3632b.jpg"  data-tag='post-image' onload='this.onload=null;this.style.opacity=1;' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p><p><img src="https://tu.iove.eu.org/file/2cd9a415c6670b3c8e142.jpg"  data-tag='post-image' onload='this.onload=null;this.style.opacity=1;' loading="lazy" onerror='this.onerror=null;this.src="/img/404.jpg"'></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;   接到电话通知，项目快开始了，带着我的大包小包回到成都，开始筹备新项目&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://tu.iove.eu.org/file/4b63b8e718f6ec4b3632b.jpg&quot;  data-tag=&#39;post-image&#39; onlo</summary>
-      
-    
-    
-    <content src="https://tu.iove.eu.org/file/0b9e3806ddaccc9e60d29.jpg" type="image"/>
     
     
     
